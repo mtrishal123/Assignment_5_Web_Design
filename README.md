@@ -1,6 +1,4 @@
-# Assignment_5_Web_Design
-
-## 🍕 Pizza Registration Form
+## 🍕 Pizza Delivery Form
 
 ## This project is part of INFO 6150 – Assignment 5: “An App with Validation.”
 It demonstrates form creation, validation, and conditional interactivity using semantic HTML, CSS, and vanilla JavaScript.
