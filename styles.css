@@ -1,0 +1,76 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f9fafb;
+  color: #222;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #c0392b;
+  color: white;
+  text-align: center;
+  padding: 1.5rem 1rem;
+}
+
+main {
+  max-width: 600px;
+  margin: 2rem auto;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="password"] {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 0.3rem;
+}
+
+button {
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #219150;
+}
+
+.error {
+  color: #e74c3c;
+  font-size: 0.9rem;
+  margin: 0.3rem 0 0;
+}
+
+.success {
+  color: #27ae60;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #c0392b;
+  color: white;
+  margin-top: 2rem;
+}

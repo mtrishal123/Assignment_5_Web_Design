@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pizza Registration Form</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>🍕 Pizza Delivery Form</h1>
+    <p>Fill out the form below and we’ll send you a free pizza!</p>
+  </header>
+
+  <main>
+    <form id="pizzaForm" novalidate>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+      <p class="error" id="nameError"></p>
+
+      <label for="year">Year of Birth:</label>
+      <input type="number" id="year" name="year" required />
+      <p class="error" id="yearError"></p>
+
+      <label>
+        <input type="checkbox" id="usResident" name="usResident" />
+        Do you live in the United States?
+      </label>
+
+      <div id="zipcodeContainer" style="display:none;">
+        <label for="zipcode">Zipcode:</label>
+        <input type="text" id="zipcode" name="zipcode" maxlength="5" />
+        <p class="error" id="zipcodeError"></p>
+      </div>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required />
+      <p class="error" id="passwordError"></p>
+
+      <fieldset>
+        <legend>Preferred Type of Pizza:</legend>
+        <label><input type="radio" name="pizzaType" value="with" required /> With pineapple</label><br />
+        <label><input type="radio" name="pizzaType" value="without" /> Without pineapple</label><br />
+        <label><input type="radio" name="pizzaType" value="none" /> I do not like pizza</label>
+        <p class="error" id="pizzaError"></p>
+      </fieldset>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <p id="successMessage" class="success"></p>
+  </main>
+
+  <footer>
+    <p>© 2025 Pizza Lovers United</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
